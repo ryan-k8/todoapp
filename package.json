@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "simple to-do web app with bs5 & es6 js",
+  "main": "index.js",
+  "scripts": {
+    "sass:": "node-sass -w scss/ -o app/css/ --recursive"
+  },
+  "keywords": [
+    "to-do"
+  ],
+  "author": "ryan k.",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
